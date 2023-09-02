@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+
+    <!-- AJAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" href="Include/slick/slick-theme.css">
+    <link rel="stylesheet" href="Include/slick/slick.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- HEADER START-->
+    <header class="head">
+
+        <div class="header-logo">
+            <a href="#">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="pages/Portfolio.html" target="_blank">Portfolio</a></li>
+                    <li><a href="pages/aboutus.html" target="_blank">About us</a></li>
+                    <li><a href="pages/contact-us.html" target="_blank">Contact us</a></li>
+                    <li><a href="#">
+                            <img src="images/flag.png" alt="flag">
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!-- HEADER END -->
+    <!-- BANNER SLIDER START-->
+    <section>
+
+        <div class="hero-section">
+            <div class="slide-1 autoplay">
+                <img src="images/bannerimage4.jpg" alt="web development">
+                <img src="images/bannerimage5.png" alt="e-commerce">
+                <img src="images/bannerimage6.jpg" alt="Technology">
+                <img src="images/bgimage.jpg" alt="office">
+            </div>
+        </div>
+
+    </section>
+    <!-- BANNER SLIDER END -->
+    <!-- MAIN SECTION -->
+    <main>
+        <section>
+            <div class="main-section">
+                <h1><span class="typer" id="main-typer" data-words="Paddy Technology" data-delay="100" data-colors="#C81D1D" data-deleteDelay="1000" data-loop="true"></span>
+                <span class="cursor" data-cursorDisplay="|" data-owner="main-typer"></span></h1>
+                <p>A website construction + digital marketing service company located in Hangzhou, China</p>
+            </div>
+            <div class="main-image">
+                <img src="images/technologynew.png" alt="main-image">
+            </div>
+
+        </section>
+        <!-- MAIN SECTION END -->
+        <!-- DIV SECTION -->
+
+        <section class="service-container">
+            <div class="main-heading">
+                <h2>How we can help you develop your market in China</h2>
+            </div>
+            <div class="service">
+                <div class="service-text">
+                    <h4>webstie design</h4>
+                    <p>Use a homegrown CMS to create beautiful websites that are fully customized. A properly built
+                        custom website can help you get the most out of your marketing efforts</p>
+                </div>
+                <div class="service-img">
+                    <img src="images/img1.png" alt="image1">
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="images/img2.png" alt="image1">
+                </div>
+                <div class="service-text">
+                    <h4>search engine Optimization</h4>
+                    <p>Accurately and quickly respond to the daily changing algorithm of Baidu search engine. By
+                        implementing the most suitable SEO strategy for the Chinese market, your website will achieve
+                        long-term and stable traffic growth.</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-text">
+                    <h4>wechat development</h4>
+                    <p>Provide WeChat official account agent operation, WeChat mini program development and other
+                        services.</p>
+                </div>
+                <div class="service-img">
+                    <img src="images/img3.png" alt="image1">
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="images/img4.png" alt="image1">
+                </div>
+                <div class="service-text">
+                    <h4>virtual host</h4>
+                    <p>The web hosting is located in mainland China, which is also good for SEO. We regularly handle
+                        everything from server maintenance to backups.</p>
+                </div>
+            </div>
+        </section>
+        <section style="background-image: url(images/image12.png); max-width: 1680px; margin: auto; width: 100%; background-repeat: no-repeat; height: 500px; margin-top: -190px;">
+
+        </section>
+
+        <!-- DIV SECTION END -->
+        <!-- FORM START -->
+
+        <section>
+            <div class="form">
+                <div class="main-form">
+                    <div class="form-head">
+                        <div class="heading">
+                            <h2>Contact us to create your China website </h2>
+                        </div>
+                        <div class="headi">
+                            <h2>what we do</h2>
+                        </div>
+                    </div>
+                    <form id="WebsiteForm" method="get">
+                        
+                            <div>
+                                <label for="name">Name</label>
+                                <input class="text" id="name" name="name" type="text">
+                            </div>
+                            <div>
+                                <label for="companyname">Company Name</label>
+                                <input class="text" id="companyname" name="companyname" type="text">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input class="text" id="email" name="email" type="email">
+                            </div>
+                            <div>
+                                <label for="countryname">Your Country</label>
+                                <input class="text" id="countryname" name="countryname" type="text">
+                            </div>
+                            <div>
+                                <label for="message">Your Question or message</label>
+                                <br>
+                                <textarea id="message" name="message" rows="6"></textarea>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="checkbox" id="agree" name="agree">
+                                <label for="agree">Please agree to our policy</label>
+                            </div>
+                            <div>
+                                <input class="btn" type="submit" value="Submit">
+                            </div>
+                        
+                    </form>
+                </div>
+                <div class="design-side">
+                    <div class="img">
+                        <img src="images/formimg.png" alt="form img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FORM END -->
+
+    </main>
+
+
+    <!-- FOOTER START -->
+
+    <footer>
+        <div class="contact-footer">
+            <div class="logo">
+                <a href="#"><img src="images/barcode.png" width="150" height="150" alt="barcode"></a>
+            </div>
+            <div class="contact-list1">
+                <ul>
+                    <li class="footerlink">LINKS</li>
+                    <li>website</li>
+                    <li>building</li>
+                    <li>search engine</li>
+                    <li>Wechat development</li>
+                    <li>virtual host</li>
+                </ul>
+            </div>
+            <div class="contact-list2">
+                <ul>
+                    <li class="footerlink">CONTACTS</li>
+                    <li><a href="mailto:pd@hzpady.com">Email:pd@hzpady.com</a></li>
+                    <li><a href="tel:+4733378901">Tel:+4733378901</a></li>
+                </ul>
+            </div>
+            <div class="mapembed">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.5463220013594!2d67.05662307386622!3d24.879339977916967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eed5d2a946f%3A0x86b0b26ae2d6432b!2sConsulNet%20Corporation!5e0!3m2!1sen!2s!4v1679385472908!5m2!1sen!2s"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+    <!-- CUSTOM SCRIPT -->
+    <script src="script/jquerry/jquery.js"></script>
+    <script src="script/js/script.js"></script>
+    <script src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+    <!-- SLICK JS -->
+    <script src="Include/slick/slick.js"></script>
+
+    <!--JQUERY VALIDATION  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.js"></script>
+	
+    <!--form script  -->
+    <script>
+		$.validator.setDefaults({
+			submitHandler: function () {
+				alert("submitted!");
+			}
+		});
+
+		$(document).ready(function () {
+
+			$("#WebsiteForm").validate({
+				rules: {
+					name: "required",
+					companyname: "required",
+					countryname: {
+						required: true,
+						minlength: 2
+					},
+					email: {
+						required: true,
+						email: true
+					},
+					message: "required",
+					agree: "required"
+				},
+				messages: {
+					name: "Please enter your name",
+					companyname: "Please enter your company name",
+					countryname: {
+						required: "Please enter a country name",
+						minlength: "Your country name must consist of at least 2 characters"
+					},
+					email: "Please enter a valid email address",
+					message: "please leave a message!",
+					agree: "Please accept our policy",
+				}
+			});
+
+		});
+	</script>
+     <!--form script end  -->
+
+</body>
+
+</html>
